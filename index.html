@@ -1,0 +1,44 @@
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<div class="playground">
+	<div style="width: 400px; height: 20px;">
+		<div class="scoreDiv">
+			<span>SCORE: </span>
+			<div id="score">0</div>
+		</div>
+		<div id="settings">
+			<form>
+				<select type="select" id="difficulty">
+					<option val="1">1</option>
+					<option val="2">2</option>
+					<option val="3">3</option>
+					<option val="4">4</option>
+					<option val="5">5</option>
+				</select>
+			</form>
+		</div>
+	</div>	
+	<canvas id="canvas" width=400 height=400 >
+	</canvas>
+</div>
+
+<div class="modal" id="modal">
+	<div id="modal-content">
+		<span class="init">
+			Start The Game
+		</span>
+	</div>
+	<button class="btn-start" id="start-btn" onclick="startTheGame()">START</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
