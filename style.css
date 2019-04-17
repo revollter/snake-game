@@ -1,0 +1,95 @@
+.playground 
+{
+	width: 400px;
+	padding: 50px;
+	padding-top: 30px;
+	background-color: #343148;
+}
+
+.score-container 
+{
+	width: 100px;
+	color: #4F84C4;
+	float: left;	
+}
+
+#score
+{
+	float: right;
+	font-weight: bold;
+}
+
+#canvas 
+{
+	border: 2px solid #DD4132;
+}
+
+#settings
+{
+	width: 300px;
+	float: left;
+}
+
+#settings > form > input {
+	width: 100px;
+}
+
+#settings > form 
+{
+	float:right;
+}
+
+.modal {
+	position: absolute;
+	top: 200px;
+	left: 160px;
+	border: 1px solid #DD4132;	
+	background-color: rgba(0, 0, 0, 0.6);
+	border-radius: 5%;
+	width: 200px;
+	height: 100px;
+}
+
+.btn-start {
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 25px;
+	padding: 2px; 
+	border-radius: 5%;
+	background-color: black;
+	border: 1px solid #4F84C4;
+	color: #4F84C4;
+}
+
+.btn-start:hover {
+	border: 1.5px solid #6F9FD8;
+	color: #6F9FD8;
+	cursor: pointer;
+}
+
+#modal-content {
+	width: 180px;
+	margin-left: 10px;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.init {
+	color: #DD4132;
+	font-size: 20;
+	font-weight: 1000;
+}
+
+.lose {
+	color: #BFD641;
+	font-size: 20;
+	font-weight: 1000;
+}
+
+select {
+	background-color: #343148;
+	border: none;
+	border-bottom: 1px solid #4F84C4;
+	color: #DD4132;
+}
+

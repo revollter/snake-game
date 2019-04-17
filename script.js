@@ -15,7 +15,6 @@ setOnkeydownEvent();
 
 function startTheGame() {	
 	document.getElementById("modal").style.display = 'none';
-	console.log('dupa');
 	game = new Game();
 	game.runGame();
 }
